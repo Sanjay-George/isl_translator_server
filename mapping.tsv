@@ -1,0 +1,353 @@
+word	mapping	conflict
+0	0_001 0_001	
+1	1_001 1_001	
+2	2_001 2_001	
+3	3_001 3_001	
+4	4_001 4_001	
+5	5_001 5_001	
+6	6_001 6_001	
+7	7_001 7_001	
+8	8_001 8_001	
+9	9_001 9_001	
+a	a_001 a_001	
+address	address_001 address_002 address_003 address_004	
+after	after_001 after_002	
+afternoon	afternoon_001 afternoon_002 afternoon_003	
+again	again_001 again_002	
+age	age_001 age_001	
+all_the_best	all_the_best_001 all_the_best_002 all_the_best_003 all_the_best_004	
+ambulance	ambulance_001 ambulance_002 ambulance_003 ambulance_004 ambulance_002 ambulance_003 ambulance_004 ambulance_002 ambulance_003 ambulance_004	
+angry	angry_001 angry_002 angry_003	
+army	army_001 army_002	army_001 army_002 army_003
+asked	asked_001 asked_002	
+attendance	attendance_001 attendance_002	
+auto	auto_001 auto_001	
+b	b_001 b_001	
+baby	baby_001 baby_002	
+bad	bad_001 bad_002	
+bathroom	bathroom_001 bathroom_002 bathroom_003 bathroom_004	
+beautiful	beautiful_001 beautiful_002 beautiful_003 beautiful_004 beautiful_005 beautiful_006	
+behind	behind_001 behind_002 behind_003	
+between	between_001 between_002 between_003 between_004	
+birthday	birthday_001 birthday_002 birthday_003	
+bit	bit_001 bit_002 bit_003	
+black	black_001 black_001	
+blank	blank_001 blank_001	
+blue	blue_001 blue_001	
+book	book_001 book_002 book_003 book_004 book_005 book_006	
+bookcase	bookcase_001 bookcase_002 bookcase_003 bookcase_004 bookcase_005 bookcase_006 bookcase_007	
+bookv	bookv_001 bookv_002	
+bored	bored_001 bored_002 bored_003 bored_004	
+born	born_001 born_002	
+break	break_001 break_002	
+brown	brown_001 brown_002 brown_003 brown_004	
+building	building_001 building_002 building_003 building_004 building_005	
+bus	bus_001 bus_002 bus_003 bus_004 bus_005 bus_006	
+bus stop	bus_stop_001 bus_stop_002 bus_stop_003 bus_stop_004	
+busy	busy_001 busy_002 busy_003 busy_004 busy_005 busy_006	
+c	c_001 c_001	
+call	call_001 call_002	
+camp	camp_001 camp_002 camp_003	
+can	can_001 can_002	
+car	car_001 car_002 car_003 car_004 	
+careful	careful_001 careful_002 careful_003 careful_004 careful_004 careful_005 careful_006	
+caught	caught_001 caught_002 caught_003 caught_004	
+chair	chair_001 chair_002 chair_003	
+christian	christian_001 christian_002 christian_003 christian_004	
+city	city_001 city_002	
+class	class_001 class_002	
+clean	clean_001 clean_003 clean_002 clean_003	
+clerk	clerk_001 clerk_002 clerk_003 clerk_004 clerk_005 clerk_006 clerk_007 clerk_008 clerk_009 clerk_010	
+close	close_001 close_002 close_003 close_004	
+clothes	clothes_001 clothes_002 clothes_003	
+coffee	coffee_001 coffee_002 coffee_003 coffee_004 coffee_005 coffee_006 coffee_007	
+cold	cold_001 cold_002 cold_003	
+college	college_001 college_002	
+come	come_001 come_002	
+communicate	communicate_001 communicate_002 communicate_003 communicate_004 communicate_005 	
+compromize	compromize_001 compromize_002 compromize_003 compromize_004	
+computer	computer_001 computer_002 computer_003	
+confused	confused_001 confused_002 confused_003 confused_004	
+connect	connect_001 connect_002 connect_003 connect_004 connect_005 connect_006	
+cracker	cracker_001 cracker_002 cracker_003 cracker_001 cracker_002 cracker_003	
+d	d_001 d_001	
+dangerous	dangerous_001 dangerous_002	
+data	data_001 data_002 data_003 data_004	
+date	date_001 date_002 date_003 date_004 date_005 date_006	
+decide	decide_001 decide_002	
+delete	delete_001 delete_002 delete_003 delete_004	
+did	did_001 did_002 did_003	
+died	died_001 died_002 died_003 died_004	
+different	different_001 different_002	
+doing	doing_001 doing_002 doing_003 doing_004 doing_005	
+door	door_001 door_002 door_003 door_004	
+down	down_001 down_002	
+drink	drink_001 drink_002 drink_003	
+ducklings	ducklings_001 ducklings_002 ducklings_003	
+dustbin	dustbin_001 dustbin_002 dustbin_003 dustbin_004 dustbin_005 dustbin_006 dustbin_007 dustbin_008 dustbin_009 dustbin_010	
+e	e_001 e_001	
+earlier	earlier_001 earlier_002	
+early	early_001 early_002	
+eat	eat_001 eat_001	
+eid	eid_001 eid_002 eid_001 eid_002	
+email	email_001 email_002 email_003	
+enjoyable	enjoyable_001 enjoyable_002 enjoyable_003 enjoyable_004 enjoyable_005 enjoyable_006 enjoyable_007	
+entry	entry_001 entry_002 entry_003	
+essay	essay_001 essay_002	
+evening	evening_001 evening_002 evening_003 evening_004	
+everyone	everyone_001 everyone_002	
+everything	everything_001 everything_002 everything_003 everything_004	
+excel	exel_001 exel_002 exel_003 exel_004 exel_005 exel_006	
+explain	explain_001 explain_002 explain_003 explain_004	
+f	f_001 f_001	
+fail	fail_001 fail_001	
+family	family_001 family_002 family_003 family_004 family_005	
+famous	famous_001 famous_002 famous_003	
+far	far_001 far_002	
+father	father_001 father_002	
+fever	fever_001 fever_002	
+file	file_001 file_002 file_003 file_004	
+fine	fine_001 fine_001	
+finish	finish_001 finish_002 finish_003	
+flower	flower_001 flower_002 flower_003 flower_004	
+focus	focus_001 focus_002 focus_003 focus_004	
+food	food_001 food_001	
+forgot	forgot_001 forgot_002 forgot_003 forgot_004 forgot_005	
+found	found_001 found_002	
+friday	friday_001 friday_002 friday_003 friday_004	
+friend	friend_001 friend_002 friend_003 friend_004	
+g	g_001 g_001	
+garbase	garbage_001 garbage_002 garbage_003	
+garden	garden_001 garden_002 garden_003 garden_004 garden_005 garden_006 garden_007 garden_008 garden_009	
+gift	gift_001 gift_002 gift_003	
+give_me	give_me_001 give_me_002 give_me_003 give_me_004	
+go	go_001 go_002 go_003	
+good	good_001 good_002	
+grandmother	grandmother_001 grandmother_002 grandmother_003	
+green	green_001 green_001	
+grow	grow_001 grow_002	
+h	h_001 h_001	
+happened	happened_001 happened_002 happened_003 happened_004	
+happy	happy_001 happy_001	happy_001 happy_002 happy_003 happy_004
+hard	hard_001 hard_001	
+have	have_001 have_002 have_003 have_004	
+he	he_001 he_002 she_002	
+headache	headache_001 headache_002 headache_003 headache_004	
+hello	hello_001 hello_2 hello_003	
+help	help_001 help_002	
+hidden	hidden_001 hidden_002	
+home	home_001 home_001	
+homemaker	homemaker_001 homemaker_002 homemaker_003 homemaker_004	
+homework	homework_001 homework_002 homework_003 homework_004	
+hospital	hospital_001 hospital_002 hospital_003 hospital_004 hospital_005	
+hot	hot_001 hot_002 hot_003 hot_004 hot_005	
+hotel	hotel_001 hotel_002 hotel_003 hotel_004	
+how_are_you	how_are_you_001 how_are_you_002 how_are_you_003	
+how_many	how_many_001 how_many_002 how_many_003 how_many_004 how_many_005	
+HR	HR_001 HR_002 HR_003	
+hungry	hungry_001 hungry_002 hungry_003	
+i	i_001 i_001	
+important	important_001 important_002 important_003	
+in	in_001 in_002	
+internet	internet_001 internet_002 internet_003 internet_004	
+interview	interview_001 interview_002 interview_003 interview_003 interview_004 interview_005 interview_006 interview_007	
+j	j_001 j_001	
+jam	jam_001 jam_002 jam_003 jam_004	
+jealous	jealous_001 jealous_002 jealous_003 	
+jewish	jewish_001 jewish_002 jewish_003	
+job	job_001 job_002 job_003 job_004 job_005 job_006 job_007	
+journey	journey_001 journey_002 journey_003 journey_004 journey_005	
+k	k_001 k_001	
+keep smiling	smiling_001 smiling_002	
+kill	kill_001 kill_002 kill_003	
+know	know_001 know_002 know_003	
+l	l_001 l_001	
+languages	languages_001 languages_002	
+late	late_001 late_002 	
+later	later_001 later_002 later_003 later_004	
+learn	learn_001 learn_002 learn_003 learn_004 learn_005	
+leave	leave_001 leave_002 leave_003 leave_004	
+left	left_001 left_001	
+lets_go	lets_go_001 lets_go_002 lets_go_003 lets_go_004	
+letter	letter_001 letter_002	
+light	light_001 light_002 light_003 light_004 light_005	
+like	like_001 like_002 like_003 like_004 like_005	
+like it	like_it_001 like_it_002	
+live	live_001 live_002 live_003	
+love	love_001 love_001	
+lunch	lunch_001 lunch_002 lunch_003 lunch_004	
+m	m_001 m_001	
+make	make_001 make_002	
+man	man_001 man_002 man_003	
+manner	manner_001 manner_002 manner_003	
+many	many_001 many_002 many_003 many_004 many_005 many_006	
+march	march_001 march_002 march_001 march_002	
+me	me_001 me_001	
+medicine	medicine_001 medicine_002 medicine_003	
+meet	meet_001 meet_002 meet_003 meet_004	
+men	men_001 men_002	
+metro	metro_001 metro_001	
+metro station	metro_station_001 metro_station_002 metro_station_003	
+miss	miss_001 miss_002 miss_003	
+missed	missed_001 missed_002 missed_003	
+mistake	mistake_001 mistake_002 mistake_003	
+mobile_number	mobile_number_001 mobile_number_002 mobile_number_003	
+monday	monday_001 monday_002 monday_003 monday_004	
+money	money_001 money_002 money_003 money_004 money_005	
+month	month_001 month_002	
+morning	morning_001 morning_002 morning_003 morning_004	
+mother	mother_001 mother_002 mother_003	
+motor_cycle	motor_cycle_001 motor_cycle_002 motor_cycle_003	
+moving_on	moving_on_001 moving_on_002 moving_on_003	
+muslim	muslim_001 muslim_002	
+n	n_001 n_001	
+name	name_001 name_002 name_003	
+nazi	Nazi_001 Nazi_002	
+nice	nice_001 nice_002	
+night	night_001 night_002 night_003	
+no	no_001 no_002 no_003	no_001 no_002 no_003 no_004
+nothing	nothing_001 nothing_002 nothing_003 nothing_004	
+now	now_001 now_002	
+o	o_001 o_001	
+october	october_001 october_002 october_003 october_004 october_005 october_006 october_007	
+off	off_001 off_002	
+office	office_001 office_002 office_003 office_004 office_005 office_006	
+old	old_001 old_002 old_003 old_004	
+on 	on_001 on_002	
+open	open_001 open_002 open_003	
+or	or_001 or_002	
+orange	orange_001 orange_002 orange_003 orange_004	
+p	p_001 p_001	
+pack	pack_001 pack_002 pack_003	
+pain	pain_001 pain_002	
+pass	pass_001 pass_002	
+pen	pen_001 pen_002 pen_003 pen_004	
+people	people_001 people_002 people_003 people_004 people_005 people_006	
+picture	picture_001 picture_002	
+pink	pink_001 pink_002 pink_003 pink_004	
+place	place_001 place_002	
+please	please_001 please_002 please_003	
+poem	poem_001 poem_001	
+police	police_001 police_001	
+practice	practice_001 practice_002 practice_003 practice_004 practice_005	
+praise	praise_001 praise_002 praise_003	
+problem	problem_001 problem_002	
+published	published_001 published_002 published_003 published_004	
+punishment	punishment_001 punishment_002 punishment_003 punishment_004	
+purple	purple_001 purple_001	
+q	q_001 q_001	
+quacking	quacking_001 quacking_001	
+question	question_001 question_002 question_003 question_004	
+r	r_001 r_001	
+rain	rain_001 rain_002 rain_003 rain_004	
+read	read_001 read_002	
+receive	receive_001 receive_002 receive_003	
+red	red_001 red_001	
+restaurant	restaurant_001 restaurant_002 restaurant_003 restaurant_004 restaurant_005 restaurant_006	
+right	right_001 right_002	
+room	room_001 room_002 room_003	
+run_away	run_away_001 run_away_002	
+s	s_001 s_001	
+sad	sad_001 sad_002	
+salary	salary_001 salary_002	
+same	same_001 same_002	
+saturday	saturday_001 saturday_002 saturday_003	
+save	save_001 save_002	
+say	say_001 say_002 say_003 say_004	
+scared	scared_001 scared_001	
+school	school_001 school_002	
+search	search_001 search_002 search_003 search_004	
+see	see_001 see_002	
+sensitive	sensitive_001 sensitive_002 sensitive_003	
+separate	separate_001 separate_002	
+she	she_001 she_002	
+shift	shift_001 shift_002	
+shop	shop_001 shop_002 shop_003 shop_004 shop_005 shop_006 shop_007	
+shopping	shopping_001 shopping_002 shopping_003 shopping_004 shopping_005 shopping_006 shopping_007	
+show	show_001 show_002	
+sick	sick_001 sick_002 sick_003	
+sign	sign_001 sign_002	
+sign language interpreter	sign_language_interpreter_001 sign_language_interpreter_002 sign_language_interpreter_003 sign_language_interpreter_004 sign_language_interpreter_005 sign_language_interpreter_006 sign_language_interpreter_007 sign_language_interpreter_008	
+sikh	sikh_001 sikh_002 sikh_003	
+sister	sister_001 sister_002 sister_003	
+sleep	sleep_001 sleep_001	
+smoking	smoking_001 smoking_002 smoking_003	
+soldiers	soldiers_001 soldiers_001	
+solve	solve_001 solve_002 solve_003	
+some	some_001 some_001	
+something	something_001 something_002 something_003 something_004	
+sorry	sorry_001 sorry_002 sorry_003 sorry_004 sorry_005	
+stand	stand_001 stand_002 stand_003	
+start	start_001 start_002 start_003	
+station	station_001 station_002 station_003	
+stay	stay_001 stay_002 stay_003 stay_004 stay_005	
+story	story_001 story_002 story_003 story_004	
+strong	strong_001 strong_001	
+suffered	suffered_001 suffered_002 suffered_003 suffered_004	
+sunday	sunday_001 sunday_002 sunday_003 sunday_004 sunday_005 sunday_006	
+survived	survived_001 survived_002 survived_003	
+suspicious	suspicious_001 suspicious_002 suspicious_003 suspicious_004	
+t	t_001 t_001	
+table	table_001 table_002 table_003 table_004 table_005	
+take_care	take_care_001 take_care_002 take_care_003 take_care_004	
+taken	taken_001 taken_002 taken_003 taken_004 taken_005	
+talk	talk_001 talk_002 talk_003 talk_004	
+tan	tan_001 tan_001	
+taxi	taxi_001 taxi_002 taxi_003 taxi_004 taxi_005	
+tea	tea_001 tea_002 tea_003 tea_004 tea_005 tea_006 tea_007	
+teacher	teacher_001 teacher_002 teacher_003 teacher_004	
+team	team_001 team_002 team_003	
+tears	tears_001 tears_002 tears_003	
+theater	theater_001 theater_002 theater_003 theater_004 theater_005 theater_006	
+they	they_001 they_002	
+thin	thin_001 thin_002 thin_003	
+thinking	thinking_001 thinking_002 thinking_003 thinking_004	
+this	this_001 this_001	
+threaten	threaten_001 threaten_002	
+thursday	thursday_001 thursday_002 thursday_003	
+ticket	ticket_001 ticket_001	
+tiewrist	tiewrist_001 tiewrist_002 tiewrist_003 tiewrist_004	
+time	time_001 time_001	
+tired	tired_001 tired_002 tired_003 tired_004	
+today	today_001 today_002	
+together	together_001 together_001	
+tomorrow	tomorrow_001 tomorrow_002 tomorrow_003 tomorrow_004	
+traffic	traffic_001 traffic_002 traffic_003	
+train	train_001 train_002 train_003 train_004	
+translated	translated_001 translated_002	
+true_friend	true_friend_001 true_friend_002 true_friend_003 true_friend_004 true_friend_005 true_friend_006	
+tuesday	tuesday_001 tuesday_002 tuesday_003 tuesday_004	
+tv	tv_001 tv_002 tv_003 tv_004	
+u	u_001 u_001	
+understand	understand_001 understand_002	
+up	up_001 up_002	
+use	use_001 use_002 use_003 use_004	
+v	v_001 v_001	
+w	w_001 w_001	
+wait	wait_001 wait_002 wait_003	
+walking	walking_001 walking_002	
+want	want_001 want_002 want_003 want_004 want_005	
+war	war_001 war_002 war_003 war_004	
+watch	watch_001 watch_002 watch_003 watch_004 watch_005 watch_006	
+water	water_001 water_002 water_003	
+we	we_001 we_002 we_003 we_004	
+weak	weak_001 weak_002 weak_003 	
+wednesday	wednesday_001 wednesday_002 wednesday_003	
+went	went_001 went_002 went_003	
+what	what_001 what_002 what_003	
+when	when_001 when_002	
+where	where_001 where_002 where_003 where_004 where_005 where_006	
+white	white_001 white_001	
+will	will_001 will_002 will_003 will_004	
+women	women_001 women_002	
+work	work_001 work_002 work_003 work_004	
+world	world_001 world_002 world_003	
+worry	worry_001 worry_002 worry_003 worry_004	
+write	write_001 write_002 write_003	
+wrong	wrong_001 wrong_002 wrong_003	
+x	x_001 x_001	
+y	y_001 y_002	
+year	year_001 year_002 year_003 year_004 year_005	
+yellow	yellow_001 yellow_001	
+you	you_001 you_001	
+z	z_001 z_001	

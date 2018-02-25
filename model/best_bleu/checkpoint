@@ -1,0 +1,6 @@
+model_checkpoint_path: "C:\\Users\\my lenovo\\Desktop\\SIGN LANGUAGE MODELS\\MODEL7\\nmt-chatbot\\model\\best_bleu\\translate.ckpt-121000"
+all_model_checkpoint_paths: "C:\\Users\\my lenovo\\Desktop\\SIGN LANGUAGE MODELS\\MODEL7\\nmt-chatbot\\model\\best_bleu\\translate.ckpt-5000"
+all_model_checkpoint_paths: "C:\\Users\\my lenovo\\Desktop\\SIGN LANGUAGE MODELS\\MODEL7\\nmt-chatbot\\model\\best_bleu\\translate.ckpt-9000"
+all_model_checkpoint_paths: "C:\\Users\\my lenovo\\Desktop\\SIGN LANGUAGE MODELS\\MODEL7\\nmt-chatbot\\model\\best_bleu\\translate.ckpt-10000"
+all_model_checkpoint_paths: "C:\\Users\\my lenovo\\Desktop\\SIGN LANGUAGE MODELS\\MODEL7\\nmt-chatbot\\model\\best_bleu\\translate.ckpt-15000"
+all_model_checkpoint_paths: "C:\\Users\\my lenovo\\Desktop\\SIGN LANGUAGE MODELS\\MODEL7\\nmt-chatbot\\model\\best_bleu\\translate.ckpt-121000"
