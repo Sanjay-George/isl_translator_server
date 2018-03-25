@@ -1,19 +1,16 @@
-import numpy as np
-import pandas as pd
 import re
 import imageio
 from inference import inference
 from mapping import mapping
 
-import nltk
 from nltk.stem.porter import PorterStemmer
 import socket
 
 
 
 # UPDATE STOPWORDS 
-stopwords = ['a', 'an', 'to', 'shall', 'are', 'were', 'is', 'was', 'am', 'the', 'do', 'in', 'there', 'that', 'had', 'of', 'too', 'used', 'really', 'very', 'so', 'will']
-# host address
+stopwords = ['an', 'to', 'shall', 'are', 'were', 'is', 'was', 'am', 'the', 'do', 'in', 'there', 'that', 'had', 'of', 'too', 'used', 'really', 'very', 'so', 'will']
+# host address : localhost 
 host = socket.gethostbyname(socket.gethostname())
 
 #function to preprocess the input text - must match with preprocessing.py

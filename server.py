@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask
 from translate import preprocess, fetch_sign, image_to_gif
 
 

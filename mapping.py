@@ -33,4 +33,4 @@ def mapping(sentence):
 #    print(sign)
     return sign
 
-mapping("where you go")
+mapping("please no garbage use dustbin")

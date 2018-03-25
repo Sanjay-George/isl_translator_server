@@ -18,12 +18,12 @@ Frontend : Android app (Java) https://github.com/Sanjay-George/isl_translator
 
 STEPS FOR RUNNING:
 1. Create a folder in htdocs
-2. CLone this repo into that folder
+2. Clone this repo into that folder
 3. Open translate.py and change the value of localhost variable to the correct file path
 4. Open model/checkpoint and change the model_checkpoint_path to the correct file path 
 5. Open model/hparams and change the property "best_bleu_dir" to the correct file path
-5. Run server.py. It will be run on port 5000. 
-6. Run apache server on localhost.
+6. Run server.py. It will be run on port 5000. 
+7. Run apache server on localhost.
 
 NOTE : Send GET request to the flash server at the route /translate/<english_text>
 
