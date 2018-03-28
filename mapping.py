@@ -33,4 +33,6 @@ def mapping(sentence):
 #    print(sign)
     return sign
 
-mapping("please no garbage use dustbin")
+#mapping("please no garbage use dustbin")
+#
+#mapping("me name a a b h a m a t h e w ")

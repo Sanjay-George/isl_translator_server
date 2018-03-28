@@ -2,6 +2,7 @@ import re
 import imageio
 from inference import inference
 from mapping import mapping
+from rules import check_rules
 
 from nltk.stem.porter import PorterStemmer
 import socket
@@ -22,7 +23,7 @@ def preprocess(english):
     english = [ps.stem(word) for word in english if not word in set(stopwords)]
 #    english = [word for word in english if not word in set(stopwords)]
     english = " ".join(english)
-    name = english
+#    name = english
     return english
     
 
@@ -31,7 +32,10 @@ def fetch_sign(english):
     temp = inference(english)
     index = temp['best_index']
     sentence = temp['answers'][index]
+    print("english = " + english)
     print("sentence = " + sentence)
+    sentence = check_rules(english, sentence)
+    print("sentence(rules check) : " + sentence)
     sign = mapping(sentence)
     print("sign = " + sign)
     return sign
@@ -56,16 +60,7 @@ def image_to_gif(sign, name):
     imageio.mimsave('{}{}.gif'.format(output, name) , images, duration=0.3)
     return '{}{}.gif'.format(localhost, name)   #PATH TO GIF : FINAL RETURN 
 
-#
-#if __name__ == "__main__":
-#name = "" 
-#def translator(english):
-#english = "you want have food" # input from front end
-#english = preprocess(english)
-#name = english.replace(" ", "_")  # name for the gif
-#sign = fetch_sign(english)
-#gif_path = image_to_gif(sign, name) # FINAL RETURN 
-#return json.dumps({'gif_path' : gif_path} )
+
 
 
 

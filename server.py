@@ -23,9 +23,19 @@ def hello_user(user):
 def translate_text(english):
     english = preprocess(english)
     name = english.replace(" ", "_")  # name for the gif
+#    try:
     sign = fetch_sign(english)
+#    except : 
+#        print("error occured")
+#        return "Sorry. Couldn't translate that"
+    # -------------------------------------------------
+    # TODO : uncomment the try except before final run  
+#    try :
     gif_path = image_to_gif(sign, name) # FINAL RETURN 
-#    return json.dumps({'gif_path' : gif_path} )
+#    except :
+#        print("error occured")
+#        return "Sorry. Couldn't translate that."
+    #--------------------------------------------------
     return gif_path
 
 
