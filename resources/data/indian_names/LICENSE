@@ -1,0 +1,59 @@
+###########################################################################
+#                      Language Technologies Institute
+#                        Carnegie Mellon University
+#                           Copyright (c) 2011
+#                           All rights reserved
+#
+#  The below license applies to this file only.
+#
+#  This work is licensed under a Creative Commons Attribution 3.0
+#  Unported License. More information can be obtained on
+#  http://creativecommons.org/licenses/by/3.0/
+#
+#  You are free:
+#   - to share -- to copy, distribute and transmit the work
+#   - to adapt the work
+#   - to make commercial use of this work
+#
+#  Under the following conditions:
+#   - The work must retain this license information and
+#     the disclaimer below.
+#   - Any modifications must be clearly marked as such
+#   - The original contributor's names should not be deleted
+#   - The original author's names must not be used to endorse
+#     or promote products derived from this work without specific
+#     prior written permission.
+#
+#   With the understanding that:
+#    - Any of the above conditions can be waived if you get
+#      permission from the copyright holder.
+#    - Where the work or any of its elements is in the public domain under
+#      applicable law, that status is in no way affected by the license.
+#    - In no way are any of the following rights affected by the license:
+#       + Your fair dealing or fair use rights, or other applicable
+#         copyright exceptions and limitations
+#       + The author's moral rights
+#       + Rights other persons may have either in the work itself or
+#         in how it is used, such as publicity or privacy rights.
+#
+#  CARNEGIE MELLON UNIVERSITY AND THE CONTRIBUTORS TO THIS WORK
+#  DISCLAIM ALL WARRANTIES WITH REGARD TO THIS WORK, INCLUDING
+#  ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT
+#  SHALL CARNEGIE MELLON UNIVERSITY NOR THE CONTRIBUTORS BE LIABLE
+#  FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+#  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+#  AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+#  ARISING OUT OF OR IN CONNECTION WITH THE USE OF THIS DATA.
+#
+###########################################################################
+#  Author: Alok Parlikar (aup@cs.cmu.edu)
+#   Date : November 2011
+###########################################################################
+#  English-Hindi Parallel data of Indian first names
+#
+#  This data was retrieved by crawling the web to specifically find 
+#  parallel spellings of Indian names. Thorough proof-reading has not
+#  been performed on this data, and there may be many errors.
+#  
+###########################################################################
+# Format: English <TAB> Hindi

@@ -8,23 +8,13 @@
 #2. NUMBERS
 #3. NAMES...
 #4. IF LEN(SIGNS) > LEN(WORDS) : MATCH AND SPELL
-
+import pandas as pd
 
 months = ['januari', 'februari', 'march', 'april', 'may', 'june', 'juli', 'august', 'septemb', 'octob', 'novemb', 'decemb'] 
 months_sign = ["j eid", "f ", "m march", "a blank a", "m a y", "j rain", "j y ", "a tiewrist", "s blank s ", "october", "n cracker", "d cold"]
 days = ["saturday", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday"]
 
-#mapping = {
-#        "dad" : "father",
-#        "pappa" : "father",
-#        "daddi" : "father",
-#        "mom" : "mother",
-#        "mommi" : "mother",
-#        "mum" : "mother",
-#        "mummi" : "mother",
-#        "si" : "sister",
-#        "bro" : "brother",
-#        }
+
 
 # ---------------------------
 # RULE BASED TRANSLATION CODE
@@ -40,7 +30,7 @@ def month_rules(english, sentence):
         if word in months:
             m_indices.append(months.index(word))
     if len(m_indices) == 0 :
-        print("no months exist. RETURN from function")
+#        print("no months exist. RETURN from function")
         return sentence # EXIT IF NO MONTHS IN THE SENTENCE
     
     # loop 2 : find indices of months in the signs
@@ -60,7 +50,7 @@ def month_rules(english, sentence):
         i += 1
         sign = sign.replace(s_indices[key], months_sign[index])
     sentence = sign.rstrip()
-    print(sentence)
+#    print(sentence)
     return sentence
     
 
@@ -100,7 +90,7 @@ def number_rules(english, sentence):
 #----------------------------------------
 # RULES FOR NAMES
 def name_rules(english, sentence): 
-    not_names = ["my", "her", "his", "is", "was", "name", "goes", "by", "the", "known", "as", "you", "can", "call", "me"]
+    not_names = ["i", "my", "her", "his", "is", "was", "name", "goes", "by", "the", "known", "as", "you", "can", "call", "me"]
     english = english.split()
     sign = sentence.split()
     # loop 1 : find index of the start of name in sign sentence
@@ -132,6 +122,51 @@ def name_rules(english, sentence):
     return sentence
 
 
+# GENERIC RULES FOR NAMES : ADD LATER IF NEEDED 
+
+#def names_rules_generic(english, sentence):
+#english = "she talked to rahul"
+#sentence = 'she talk j o h n'
+    
+#names = pd.read_csv("resources/data/indian_names/names.tsv", delimiter = '\t', quoting = 3)
+#names = names.iloc[:, 0].values
+#names = [name.lower() for name in names]
+    
+#english = english.split()
+#sign = ''
+#sign = sentence + ' '
+## loop 1 : check if names present, else exit
+#n_indices = []
+#for word in english:
+#    if word in names:
+#        n_indices.append(names.index(word))
+#if len(n_indices) == 0 :
+#    print("no names exist. RETURN from function")
+##    return sentence # EXIT IF NO MONTHS IN THE SENTENCE
+#
+## loop 2 : find indices of months  in the signs
+#s_indices = {}
+#for month in months_sign:
+#    index = sign.find(month)
+#    if index > -1:
+#        s_indices[index] = month
+## sort the dict
+#import operator
+#sorted_indices = sorted(s_indices.items(), key = operator.itemgetter(0))
+#s_indices = dict(sorted_indices)
+## loop 3 : replace the months in sign
+#i = 0 
+#for key in s_indices:
+#    index = m_indices[i]
+#    i += 1
+#    sign = sign.replace(s_indices[key], months_sign[index])
+#sentence = sign.rstrip()
+#print(sentence)
+##return sentence   
+#
+#
+
+
 
 
 # CALLING FUNCTION
@@ -142,5 +177,5 @@ def check_rules(english, sentence):
     sentence = sentence.rstrip()
     return sentence
 
-print(check_rules("she 16 died", "she died 16"))
+#print(check_rules("she 16 died", "she died 16"))
 

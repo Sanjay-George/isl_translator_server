@@ -23,18 +23,18 @@ def hello_user(user):
 def translate_text(english):
     english = preprocess(english)
     name = english.replace(" ", "_")  # name for the gif
-#    try:
-    sign = fetch_sign(english)
-#    except : 
-#        print("error occured")
-#        return "Sorry. Couldn't translate that"
+    try:
+        sign = fetch_sign(english)
+    except : 
+        print("error occured. No proper translation")
+        return str(0)
     # -------------------------------------------------
     # TODO : uncomment the try except before final run  
-#    try :
-    gif_path = image_to_gif(sign, name) # FINAL RETURN 
-#    except :
-#        print("error occured")
-#        return "Sorry. Couldn't translate that."
+    try :
+        gif_path = image_to_gif(sign, name) # FINAL RETURN 
+    except :
+        print("Error occured. File doesn't exist")
+        return str(0)
     #--------------------------------------------------
     return gif_path
 
