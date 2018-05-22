@@ -90,13 +90,13 @@ def number_rules(english, sentence):
 #----------------------------------------
 # RULES FOR NAMES
 def name_rules(english, sentence): 
-    not_names = ["i", "my", "her", "his", "is", "was", "name", "goes", "by", "the", "known", "as", "you", "can", "call", "me"]
+    not_names = ["what", 'your' , "i", "my", "her", "hi", "is", "was", "name", "goes", "by", "the", "known", "as", "you", "can", "call", "me"]
     english = english.split()
     sign = sentence.split()
     # loop 1 : find index of the start of name in sign sentence
     start_index = 0
     for i in range(len(sign)):
-        if sign[i] == "name":
+        if sign[i] == "name" and sign[i+1] not in not_names:
             start_index = i + 1
     if start_index == 0:
         return sentence # EXIT IF NO NAMES IN THE SENTENCE

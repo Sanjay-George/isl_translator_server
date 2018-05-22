@@ -30,9 +30,10 @@ with open('data/tst2012.to') as f:
         sign1.append(line)
         
 correct = 0        
-for j in range(100) :
+for j in range(248) :
     print(j)
-    i = random.randint(0, 248)
+#    i = random.randint(0, 248)
+    i = j
     temp = inference(english1[i])
     index = temp['best_index']
     translation = temp['answers'][index]
@@ -42,7 +43,7 @@ for j in range(100) :
     if str(translation).replace(" ", "").strip() == str(sign1[i]).replace(" ", "").strip() :
         print("true")
         correct += 1
-dev_acc = correct / 100 * 100
+dev_acc = correct / 248 * 100
 
 
 with open('data/tst2013.from') as f:
@@ -56,9 +57,10 @@ with open('data/tst2013.to') as f:
         sign2.append(line)       
         
 correct = 0        
-for j in range(100) :
+for j in range(248) :
     print(j)
-    i = random.randint(0, 248)
+#    i = random.randint(0, 248)
+    i = j
     temp = inference(english2[i])
     index = temp['best_index']
     translation = temp['answers'][index]
@@ -68,4 +70,4 @@ for j in range(100) :
     if str(translation).replace(" ", "").strip() == str(sign2[i]).replace(" ", "").strip() :
         print("true")
         correct += 1
-test_acc = correct / 100 * 100
+test_acc = correct / 248 * 100

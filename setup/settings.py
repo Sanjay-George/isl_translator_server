@@ -22,7 +22,7 @@ preprocessing = {
     'vocab_size': 15000,
 
     # test sets' max size
-    'test_size': 100,
+    'test_size': 300,
 
     # source (raw) data folder
     'source_folder': source_dir,
