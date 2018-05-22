@@ -1,4 +1,8 @@
-tensorflow-gpu>=1.4.0
+tensorflow-gpu==1.5.0
 tqdm
 colorama
 regex
+imageio==2.2.0
+pandas==0.20.3
+Flask==0.12.2
+Flask-Cors==3.0.3
