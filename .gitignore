@@ -2,5 +2,5 @@
 __pycache__/
 
 todo\.txt
-resources/output/*
+resources/output/*.gif
 
