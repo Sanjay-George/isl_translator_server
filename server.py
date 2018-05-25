@@ -1,6 +1,6 @@
 from flask import Flask
 from translate import preprocess, fetch_sign, image_to_gif
-
+from spell import spell
 
 app = Flask(__name__)
 
@@ -19,7 +19,14 @@ def index():
 def hello_user(user):
 	return "Hello %s!" % user
 
-@app.route('/translate/<english>')
+
+@app.route('/spell/<english>')
+def spell_words(english):
+    gif_path = spell(english)
+    return gif_path
+
+
+@app.route('/engtoisl/<english>')
 def translate_text(english):
     english = preprocess(english)
     name = english.replace(" ", "_")  # name for the gif
