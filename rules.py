@@ -1,6 +1,7 @@
 # rules for translation 
 # helps to translate better for smaller datasets
 # DO THIS AFTER FINAL TRAINING
+# COULD OPTIMIZE : REDUCE NUMBER OF STRING OPERATIONS
 
 
 #RULES : 
